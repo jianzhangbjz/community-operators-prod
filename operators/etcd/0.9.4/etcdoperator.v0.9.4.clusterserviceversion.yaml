@@ -301,9 +301,9 @@ spec:
   maturity: alpha
   provider:
     name: CNCF
-  replaces: etcdoperator.v0.9.2
   selector:
     matchLabels:
       alm-owner-etcd: etcdoperator
       operated-by: etcdoperator
   version: 0.9.4
+
